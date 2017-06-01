@@ -28,13 +28,14 @@ img {
   vertical-align: middle;
 }
 
-a {
+a { /*nav*/
   color: #373B47;
   text-decoration: none;
 }
 
-a:hover {
-  color: #E95853;
+a:hover { /*nav encima*/
+  color:#E95853;
+  /*background-color: #E95853; aca sale un cuadro en vez del texto en color*/
 }
 
 .link{
@@ -94,11 +95,13 @@ header{
   display: inline-block;
   width: 30%;
   margin-top: 63px;
+  cursor: pointer;
 }
 .box-services1{
   display: inline-block;
   width: 30%;
   margin-top: 63px;
+  cursor: pointer;
 }
 .text-services{
   font-size: 35px;
@@ -113,14 +116,13 @@ footer{
 }
 
 
-/*lo que hizo la blanca */
-.box-services{
-  cursor: pointer;
-}
-
-.box-services:hover{
+/*lo que hizo la blanca.....
+box-services:hover{ 
   background-color: rgba(255,255,255,0.2);
-}
+}  
+esto es para el cuadrado blanco semi-transparente, no es necesario
+*/
+
 
 /*Modal*/
 
@@ -133,7 +135,8 @@ footer{
 }
 
 #box-services-modal .modal-body h5,
-#box-services-modal .modal-body h6{
+#box-services-modal
+ .modal-body h6{
   color: whitesmoke;
 }
 #box-services-modal .modal-body h5{

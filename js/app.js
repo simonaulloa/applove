@@ -1,7 +1,7 @@
 /*
  * Archivo principal de funcionalidad de JS
 	lo que hizo la blanca - veamos si kxamos U-U
- */
+*/
 
  (function main(){
 	var boxes = Array.from(document.getElementsByClassName("box-services1"));
