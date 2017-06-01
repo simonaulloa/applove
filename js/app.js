@@ -4,7 +4,7 @@
  */
 
  (function main(){
-	var boxes = Array.from(document.getElementsByClassName("box-services"));
+	var boxes = Array.from(document.getElementsByClassName("box-services1"));
 	var modal = document.getElementById("box-services-modal");
 	var bodyModal, close, img;
 	boxes.forEach(function(box){

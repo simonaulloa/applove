@@ -95,6 +95,11 @@ header{
   width: 30%;
   margin-top: 63px;
 }
+.box-services1{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
 .text-services{
   font-size: 35px;
   letter-spacing: 2px;
@@ -118,14 +123,7 @@ footer{
 }
 
 /*Modal*/
-#box-services-modal{
-  background-color: rgba(240,30,80,0.85);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+
 
 #box-services-modal .modal-body{
   width: 60%;
@@ -158,4 +156,15 @@ footer{
 
 .hide{
   display: none;
+}
+#work{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.imagencompu img{
+  text-align: center;
+  width: 800px;
 }
