@@ -13,8 +13,10 @@
 			bodyModal = document.createElement("div");
 			bodyModal.classList.add("modal-body");
 			bodyModal.innerHTML = box.innerHTML;			
+			
 			modal.appendChild(bodyModal);
 			modal.classList.remove("hide");
+			
 			close = document.createElement("div");
 			close.classList.add("close");
 			img = document.createElement("img");
