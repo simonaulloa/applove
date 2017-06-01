@@ -5,16 +5,44 @@
 
  (function main(){
 	var boxes = Array.from(document.getElementsByClassName("box-services1"));
-	var modal = document.getElementById("box-services-modal");
-	var bodyModal, close, img;
+	
+	var modal = document.getElementById("box-services1-modal");
+	var bodyModal;
+	
 	boxes.forEach(function(box){
 		box.addEventListener("click", function(){
-			modal.innerHTML = "";
-			bodyModal = document.createElement("div");
-			bodyModal.classList.add("modal-body");
-			bodyModal.innerHTML = box.innerHTML;			
+			modal.classList.remove("hide")
+		bodyModal = document.createElement("div");
+
+		bodyModal.classList.add("modal-body");
+		bodyModal.innerHTML = box.innerHTML;
+		modal.appendChild(bodyModal);
+		 
+		});
+	});	
+
+	var close = document.querySelector("box-services1-modal .close"); 		
+		close.addEventListener("click" function(){
+			modal.classList.add("hide");
+		})
+})();			
+
 			
-			modal.appendChild(bodyModal);
+
+/*
+funcion autoinvocada
+(function miAlert(){
+	....
+})()
+Es equivalente a:
+function miAlert(){
+	...
+};
+miAlert(); 
+
+		innerHTML = "";
+			, close, img;
+					
 			modal.classList.remove("hide");
 			
 			close = document.createElement("div");
@@ -25,17 +53,5 @@
 			modal.appendChild(close);
 			close.addEventListener("click",function(){
 				modal.classList.add("hide");
-			});
-		});		
-	});
-})();
-/*
-funcion autoinvocada
-(function miAlert(){
-	....
-})()
-Es equivalente a:
-function miAlert(){
-	...
-};
-miAlert(); */
+				
+	});*/

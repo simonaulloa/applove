@@ -127,33 +127,34 @@ esto es para el cuadrado blanco semi-transparente, no es necesario
 /*Modal*/
 
 
-#box-services-modal .modal-body{
+#box-service1-modal .modal-body{
   width: 60%;
   margin: 0 auto;
   text-align: center;
   padding: 100px;
+  position: fixed;
 }
 
-#box-services-modal .modal-body h5,
-#box-services-modal
- .modal-body h6{
+#box-services1-modal .modal-body h5,
+#box-services1-modal .modal-body h6{
   color: whitesmoke;
 }
-#box-services-modal .modal-body h5{
+
+#box-services1-modal .modal-body h5{
   font-size: 2em;
 }
-#box-services-modal .modal-body h6{
+#box-services1-modal .modal-body h6{
   font-size: 1em;
 }
 
-#box-services-modal .close{
+#box-services1-modal .close{
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
 }
 
-#box-services-modal .close img{
+#box-services1-modal .close img{
   width: 60px;
 }
 
