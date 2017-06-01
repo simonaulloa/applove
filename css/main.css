@@ -100,6 +100,7 @@ header{
 .box-work{
   display: inline-block;
   width: 30%;
+  height: 20%;
   margin-top: 63px;
   cursor: pointer;
 }
@@ -127,16 +128,16 @@ esto es para el cuadrado blanco semi-transparente, no es necesario
 /*Modal*/
 
 
-.box-work{
+.box-work{ /*para que el cursor cambie a manito*/
   cursor: pointer;
 }
 
-.box-work:hover{
+.box-work:hover{ /*fondo semi-transparente*/
   background-color: rgba(255,255,255,0.2);
 }
 
 /*Modal*/
-#box-work-modal{
+#box-work-modal{ /* fondo del modal cuadro donde va la imagen*/
   background-color: rgba(240,30,80,0.85);
   width: 100%;
   height: 100%;
@@ -144,49 +145,52 @@ esto es para el cuadrado blanco semi-transparente, no es necesario
   top: 0;
   left: 0;
 }
-#box-work-modal .modal-body{
+#box-work-modal .modal-body{   /*ajustes de la imagen dentro del modal*/
   width: 60%;
   margin: 0 auto;
   text-align: center;
   padding: 100px;
-  position: fixed;
+
+  /*position: fixed;*/
 }
 
-#box-work-modal .modal-body h5,
+#box-work-modal .modal-body h5, /*color tipo ambas h5 h6*/
 #box-work-modal .modal-body h6{
   color: whitesmoke;
 }
 
-#box-work-modal .modal-body h5{
+#box-work-modal .modal-body h5{ /*tamaño letra h5*/
   font-size: 2em;
 }
-#box-work-modal .modal-body h6{
+#box-work-modal .modal-body h6{/* tamaño letra h6*/
   font-size: 1em;
 }
 
-#box-work-modal .close{
+#box-work-modal .close{ /*tamaño close? y de puntero a mano*/
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
 }
 
-#box-work-modal .close img{
+#box-work-modal .close img{ /*tamaño x close*/
   width: 60px;
 }
 
-.hide{
+.hide{ /* ocultar??*/
   display: none;
 }
 
-#work{
+
+
+#work{ /* formato work*/
   width: 70%;
   text-align: center;
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.imagencompu img{
+.imagencompu img{ /*imagen work compu*/
   text-align: center;
   width: 800px;
 }
